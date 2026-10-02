@@ -15,13 +15,13 @@
             <legend>Student details</legend>
             <p>
                 <label for="S_id">Student ID</label>
-                <input type="text" id="S_id" name="S_id"/>
+                <input type="text" id="S_id" name="S_id" pattern="^\d{7}$"/>
             </p>
             <p>
                 <label for="Gname">Given Name</label>
-                <input type="text" id="Gname" name="Gname"/>
+                <input type="text" id="Gname" name="Gname" pattern="^\w$"/>
                 <label for="Fname">Family Name</label>
-                <input type="text" id="Fname" name="Fname"/>
+                <input type="text" id="Fname" name="Fname" pattern="^\w$"/>
             </p>
         </fieldset>
         <fieldset>
