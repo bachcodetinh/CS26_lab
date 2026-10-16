@@ -99,4 +99,11 @@ footer p:nth-child(2) {
 footer p:last-child {
     float: right;
     text-align: right;
+} 
+
+#nav {
+
+    display: flex;
+    justify-content: space-evenly;
+
 }
