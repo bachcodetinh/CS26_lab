@@ -1,6 +1,6 @@
 /*
 
-filename: monle
+filename: layout.css
 
 author: le ba cao minh
 
@@ -30,7 +30,7 @@ aside {
 }
 
 header {
-    border: 1px darkgray;
+    border: 1px solid darkgray;
     margin: 0.5em;
     padding: 0.5em;
     background-color: lightgray;
@@ -62,7 +62,7 @@ figure {
 }
 
 #hyperlinks {
-    clear: both;
+    clear: left;
     float: left;
 }
 
